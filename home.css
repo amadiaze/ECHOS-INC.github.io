@@ -1,0 +1,334 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: baloo;
+}
+@font-face{
+  font-family :baloo;
+  src:url('font/Baloo.ttf') format('truetype');
+}
+/*--------- Banner ---------*/
+.header{
+  background: #413c69;
+}
+.navbar{
+  padding-top: 2px !important;
+}
+.nav-item{
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.nav-link{
+  color: #fff !important ;
+  font-size: 16px !important ;
+  padding: 0 0 5px 0 !important ;
+  display: unset !important ;  
+}
+.navbar-brand img{
+  width: 125px;
+}
+.fa-bars{
+  color: #fff;
+  font-size: 40px !important ;
+}
+.navbar-toggler{
+  border: 0;
+  padding: initial;
+  outline: none;
+}
+.active-home{
+  border-bottom: 2px solid #fff;
+}
+.nav-link:hover{
+  border-bottom: 2px solid #fff;
+}
+.banner{
+  margin-top: 8%;
+  color: #fff;
+}
+.banner h1{
+  margin: 80px 0 50px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.banner img{
+  max-height: 500px;
+  margin-bottom: 10px;
+}
+.banner a{
+  padding: 12px;
+  width: 150px;
+  display: inline-block;
+  background: #413c69;
+  text-decoration: none !important;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.banner a:hover{
+  color:#fff;
+}
+.express-btn{
+  background: #fff !important;
+  color: #000 !important;
+  margin-right: 5px;
+}
+@media screen and (max-width: 1000px){
+  .header{
+    padding-bottom: 15px ;
+  }
+  .nav-item{
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .banner{
+    margin-top: 4%;
+    color: #fff;
+  }
+  .banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .banner img{
+    max-height: 300px;
+    margin-top: 20px;
+  }
+  .banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #413c69;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .banner p{
+    font-size: 14px;
+  }
+}
+/*--------- about ---------*/
+.about{
+  background: rgb(230, 230, 230);
+  padding-bottom: 30px;
+}
+.titre{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.descriptif{
+  margin-top: 80px;
+  margin-bottom: 35px;
+  color: #808080;
+  font-size: 18px;
+  line-height: 22px;
+}
+.l-descriptif{
+  color: #808080;
+  font-size: 18px;
+  line-height: 22px;
+}
+.about a{
+  width: 170px;
+  padding: 15px 10px;
+  display: block;
+  background: #413c69;
+  text-decoration: none !important;
+  color: #fff !important;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.50);
+  padding-bottom: 10px;
+}
+.about img{
+  max-height: 200px;
+}
+.img2{
+  margin-top: 150px;
+}
+@media screen and (max-width: 1000px){
+
+  .titre{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  .descriptif{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #808080;
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .l-descriptif{
+    color: #808080;
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .about a{
+    width: 170px;
+    padding: 15px 10px;
+    background: #413c69;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    margin-right: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.50);    
+  }
+  .about img{
+    display: none;
+  }
+}
+/*-------- features ----------*/
+.features{
+  padding-bottom: 30px;
+}
+.sub2{
+  color: #808080;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 15px;
+}
+.features-box{
+  padding: 0 35px;
+  cursor : pointer;
+  margin-bottom: 10px;
+}
+.features-box img{
+  width: 40px;
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+.features-box h6{
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.features-box p{
+  font-size: 14px;
+  color: #808080;
+}
+.features-box:hover{
+  background: #413c69;
+  color: #fff !important;
+  border-radius: 5px;
+  box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
+  padding-bottom: 10px;
+}
+.features-box:hover p{
+  color: #fff !important;
+}
+.features-box:hover img{
+  border:3px solid #fff;
+  border-radius: 4px;
+  background: #fff;
+}
+/*---------Contact-----------*/
+.contact{
+  background: rgb(230, 230, 230);
+  padding-bottom: 30px;
+}
+.fcontact{
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+.fcontact .titre{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 48px;
+  padding-bottom: ;
+  color: #413c69;
+}
+.contact-form .form-field{
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #413c69;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus{
+  outline: none;
+}
+.contact-form .submit-btn{
+  display: inline-block;
+  background-image: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+/*-------- footer --------*/
+.footer{
+  background: #413c69;
+  padding-top: 5%;
+}
+.footer h2{
+  color : #fff;
+  font-weight: 600;
+  margin: 7px 0;
+}
+.footer input{
+  width:60%;
+  background: transparent;
+  outline: none;
+  border: 0; 
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color:#fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+::placeholder{
+  color: #aaa7a7;
+  font-size:14px;
+}
+.footer button{
+  padding: 6px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+}
+.footer small{
+  font-size: 14px;
+  padding: 70px;
+  padding-bottom: 20px;
+  color: #fff;
+  display: block;
+}
